@@ -8,7 +8,10 @@ pipeline
                 echo 'Building..'
                 echo 'myapp/myapp.csproj'
                 echo 'i love programing'
-                echo 'today is $(date)'
+                script{
+                    date
+                }
+                
             }
         }
         stage('Test') {
