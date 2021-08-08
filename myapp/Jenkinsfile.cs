@@ -6,6 +6,7 @@
         stage('Build') {
             steps {
                 echo 'Building..'
+                dotnetBuild myapp/myapp.csproj
             }
         }
         stage('Test') {
