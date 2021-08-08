@@ -10,9 +10,9 @@ pipeline
                 echo 'i love programing'
                 script{
                    now=`date`
-                   echo $now
+                  
                 }
-                
+                 echo $now
             }
         }
         stage('Test') {
