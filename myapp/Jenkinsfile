@@ -12,7 +12,7 @@ pipeline
                    now=`date`
                   
                 }
-                 echo $now
+                 echo '$now'
             }
         }
         stage('Test') {
