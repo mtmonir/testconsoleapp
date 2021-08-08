@@ -1,5 +1,6 @@
 
 pipeline {
+	stages{
 	stage 'Checkout'
 		checkout scm
 
@@ -9,5 +10,5 @@ pipeline {
 
 	stage 'Archive'
 		archive 'myapp/bin/Release/**'
-
+	}
 }
