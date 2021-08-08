@@ -6,7 +6,7 @@ pipeline
         stage('Build') {
             steps {
                 echo 'Building..'
-                dotnetBuild myapp/myapp.csproj
+                dotnetBuild 'myapp/myapp.csproj'
             }
         }
         stage('Test') {
