@@ -9,7 +9,7 @@ pipeline
                 echo 'myapp/myapp.csproj'
                 echo 'i love programing'
                 script{
-                    date
+                    $(date)
                 }
                 
             }
